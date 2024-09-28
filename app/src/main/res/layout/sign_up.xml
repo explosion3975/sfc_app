@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F3F3F"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/sign_up"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="@string/sign_up_title"
+                android:textAppearance="@style/sign_up_title"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/id_"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:gravity="fill_horizontal"
+                android:text="ID:"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/id_text"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:autofillHints=""
+                android:background="@drawable/input_background"
+                android:gravity="center_horizontal"
+                android:hint="Your ID"
+                android:inputType="text"
+                android:text="nmg"
+                android:textColor="#FFFFFF"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/product_key"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:gravity="fill_horizontal"
+                android:text="Product Key:"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/product_key_text"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:autofillHints=""
+                android:background="@drawable/input_background"
+                android:gravity="center_horizontal"
+                android:hint="Your Product Key"
+                android:inputType="text"
+                android:text="test"
+                android:textColor="#FFFFFF"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/name_"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/name_"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:autofillHints=""
+                android:background="@drawable/input_background"
+                android:gravity="center_horizontal"
+                android:hint="Your Name"
+                android:inputType="text"
+                android:text="融的傳人"
+                android:textColor="#FFFFFF"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/gender_text"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2dp"
+                android:text="@string/gender"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <Spinner
+                android:id="@+id/gender_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/spinner_background"
+                android:entries="@array/gender_options"
+                android:gravity="center"
+                android:textAppearance="@style/name_" />
+
+
+            <TextView
+                android:id="@+id/password_text"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2dp"
+                android:text="@string/Password"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/input_background"
+                android:gravity="center_horizontal"
+                android:hint="Your Password"
+                android:inputType="textPassword"
+                android:text="1234"
+                android:textColor="#FFFFFF"
+                tools:ignore="MissingConstraints,TextFields"
+
+                />
+
+            <TextView
+                android:id="@+id/retype_password_text"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2dp"
+                android:text="@string/retypePassword"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/retype_password"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/input_background"
+                android:gravity="center_horizontal"
+                android:hint="Password again"
+                android:inputType="textPassword"
+                android:text="1234"
+                android:textColor="#FFFFFF"
+                tools:ignore="MissingConstraints,TextFields"
+
+                />
+
+            <TextView
+                android:id="@+id/phone_text"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="2dp"
+                android:text="@string/phone"
+                android:textAppearance="@style/name_"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/input_background"
+                android:gravity="center_horizontal"
+                android:hint="Your Number"
+                android:inputType="phone"
+                android:text="0912345678"
+                android:textColor="#FFFFFF"
+                tools:ignore="MissingConstraints,TextFields" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="24dp"
+
+                android:text="@string/send"
+                app:iconTint="#FFFFFF"
+                app:rippleColor="#9A77D5" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

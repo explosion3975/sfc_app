@@ -1,0 +1,76 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="142dp"
+    android:viewportWidth="150"
+    android:viewportHeight="142">
+  <path
+      android:pathData="M0,0H130C141.05,0 150,8.95 150,20V142H0V0Z"
+      android:fillColor="#2B2F45"/>
+  <path
+      android:pathData="M95.5,63.5L85,71L95.5,78.5V63.5Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M82,60.5H65.5C63.84,60.5 62.5,61.84 62.5,63.5V78.5C62.5,80.16 63.84,81.5 65.5,81.5H82C83.66,81.5 85,80.16 85,78.5V63.5C85,61.84 83.66,60.5 82,60.5Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M59.48,90.82L62.66,99.79H62.75L65.93,90.82H66.9L63.2,101H62.21L58.5,90.82H59.48ZM69.58,90.82V101H68.65V90.82H69.58ZM75.27,101H72.29V90.82H75.45C76.42,90.82 77.25,91.02 77.94,91.42C78.63,91.83 79.16,92.41 79.53,93.16C79.9,93.92 80.08,94.83 80.08,95.88C80.08,96.95 79.89,97.87 79.51,98.63C79.14,99.4 78.59,99.98 77.87,100.39C77.16,100.8 76.29,101 75.27,101ZM73.22,100.17H75.21C76.09,100.17 76.82,99.99 77.41,99.65C78,99.3 78.44,98.81 78.74,98.17C79.03,97.53 79.18,96.77 79.18,95.88C79.18,95.01 79.03,94.25 78.74,93.62C78.46,92.98 78.03,92.5 77.47,92.16C76.91,91.82 76.22,91.65 75.39,91.65H73.22V100.17ZM82.33,101V90.82H88.24V91.65H83.26V95.49H87.93V96.32H83.26V100.17H88.34V101H82.33ZM98.99,95.91C98.99,96.97 98.81,97.89 98.43,98.68C98.05,99.46 97.53,100.07 96.87,100.5C96.21,100.93 95.45,101.14 94.59,101.14C93.73,101.14 92.97,100.93 92.31,100.5C91.65,100.07 91.13,99.46 90.75,98.68C90.38,97.89 90.19,96.97 90.19,95.91C90.19,94.85 90.38,93.93 90.75,93.14C91.13,92.36 91.65,91.75 92.31,91.33C92.98,90.89 93.73,90.68 94.59,90.68C95.45,90.68 96.21,90.89 96.87,91.33C97.53,91.75 98.05,92.36 98.43,93.14C98.81,93.93 98.99,94.85 98.99,95.91ZM98.09,95.91C98.09,95 97.94,94.22 97.63,93.57C97.33,92.91 96.91,92.42 96.38,92.07C95.86,91.73 95.26,91.55 94.59,91.55C93.92,91.55 93.33,91.73 92.8,92.07C92.27,92.42 91.86,92.91 91.55,93.56C91.24,94.21 91.09,94.99 91.09,95.91C91.09,96.82 91.24,97.6 91.55,98.25C91.85,98.9 92.27,99.4 92.79,99.75C93.32,100.09 93.92,100.26 94.59,100.26C95.26,100.26 95.86,100.09 96.38,99.75C96.91,99.4 97.33,98.91 97.64,98.26C97.94,97.6 98.09,96.82 98.09,95.91Z"
+      android:fillColor="#ffffff"/>
+</vector>
+</item>
+  <item>
+
+    <shape android:shape="rectangle">
+
+      <gradient
+          android:angle="180"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96"
+          />
+
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+          android:angle="90"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96" />
+      <corners android:topRightRadius="20dp" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+          android:angle="0"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96" />
+      <corners android:topRightRadius="20dp" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+          android:angle="270"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96" />
+    </shape>
+  </item>
+    </layer-list>

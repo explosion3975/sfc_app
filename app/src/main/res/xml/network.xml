@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">subject.explosion.nmg.cs.thu.edu.tw</domain>
+        <!-- 添加其他需要明文通信的域 -->
+    </domain-config>
+</network-security-config>

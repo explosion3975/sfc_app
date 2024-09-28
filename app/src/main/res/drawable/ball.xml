@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景圆形，黑色 -->
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="oval">
+            <solid android:color="#27394A" />
+            <size
+                android:width="181dp"
+                android:height="181dp" />
+        </shape>
+    </item>
+
+    <!-- 变色圆形，水蓝色，根据进度梯度 -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="-90"
+            android:toDegrees="-90">
+        <clip>
+            <shape
+                android:shape="oval">
+                <solid android:color="#71C8DC" />
+            </shape>
+        </clip>
+        </rotate>
+    </item>
+</layer-list>

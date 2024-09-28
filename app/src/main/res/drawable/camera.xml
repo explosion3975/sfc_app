@@ -1,0 +1,78 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item>
+    <vector
+        android:width="150dp"
+        android:height="142dp"
+        android:viewportWidth="150"
+        android:viewportHeight="142">
+      <path
+          android:pathData="M0,20C0,8.95 8.95,0 20,0H150V142H0V20Z"
+          android:fillColor="#2B2F45"/>
+      <path
+          android:pathData="M93,79.11C93,79.88 92.69,80.61 92.15,81.15C91.6,81.7 90.86,82 90.09,82H63.91C63.14,82 62.4,81.7 61.85,81.15C61.31,80.61 61,79.88 61,79.11V63.22C61,62.46 61.31,61.72 61.85,61.18C62.4,60.64 63.14,60.33 63.91,60.33H69.73L72.64,56H81.36L84.27,60.33H90.09C90.86,60.33 91.6,60.64 92.15,61.18C92.69,61.72 93,62.46 93,63.22V79.11Z"
+          android:strokeLineJoin="round"
+          android:strokeWidth="2"
+          android:fillColor="#00000000"
+          android:strokeColor="#ffffff"
+          android:strokeLineCap="round"/>
+      <path
+          android:pathData="M77,76.22C80.21,76.22 82.82,73.64 82.82,70.44C82.82,67.25 80.21,64.67 77,64.67C73.79,64.67 71.18,67.25 71.18,70.44C71.18,73.64 73.79,76.22 77,76.22Z"
+          android:strokeLineJoin="round"
+          android:strokeWidth="2"
+          android:fillColor="#00000000"
+          android:strokeColor="#ffffff"
+          android:strokeLineCap="round"/>
+      <path
+          android:pathData="M56.82,94H55.89C55.82,93.65 55.69,93.33 55.51,93.04C55.33,92.74 55.1,92.48 54.83,92.25C54.56,92.03 54.25,91.86 53.91,91.74C53.56,91.62 53.19,91.55 52.79,91.55C52.15,91.55 51.56,91.72 51.03,92.06C50.5,92.39 50.08,92.88 49.76,93.53C49.45,94.18 49.29,94.97 49.29,95.91C49.29,96.85 49.45,97.65 49.76,98.3C50.08,98.94 50.5,99.43 51.03,99.77C51.56,100.1 52.15,100.26 52.79,100.26C53.19,100.26 53.56,100.2 53.91,100.08C54.25,99.96 54.56,99.79 54.83,99.57C55.1,99.35 55.33,99.09 55.51,98.79C55.69,98.49 55.82,98.17 55.89,97.82H56.82C56.74,98.29 56.58,98.72 56.35,99.13C56.13,99.53 55.84,99.88 55.49,100.18C55.14,100.48 54.74,100.72 54.29,100.89C53.83,101.06 53.33,101.14 52.79,101.14C51.93,101.14 51.18,100.93 50.51,100.5C49.85,100.07 49.33,99.46 48.95,98.68C48.58,97.9 48.39,96.97 48.39,95.91C48.39,94.85 48.58,93.92 48.95,93.14C49.33,92.36 49.85,91.75 50.51,91.33C51.18,90.89 51.93,90.68 52.79,90.68C53.33,90.68 53.83,90.76 54.29,90.93C54.74,91.1 55.14,91.33 55.49,91.64C55.84,91.94 56.13,92.29 56.35,92.69C56.58,93.09 56.74,93.53 56.82,94ZM59.02,101H58.05L61.75,90.82H62.74L66.45,101H65.47L62.28,92.03H62.21L59.02,101ZM59.72,97.1H64.77V97.93H59.72V97.1ZM68.19,90.82H69.27L72.96,99.69H73.05L76.74,90.82H77.82V101H76.94V92.78H76.86L73.43,101H72.58L69.15,92.78H69.07V101H68.19V90.82ZM80.53,101V90.82H86.43V91.65H81.45V95.49H86.12V96.32H81.45V100.17H86.53V101H80.53ZM88.84,101V90.82H92.12C92.85,90.82 93.45,90.95 93.93,91.21C94.42,91.47 94.79,91.83 95.03,92.29C95.28,92.75 95.41,93.27 95.41,93.87C95.41,94.46 95.28,94.98 95.03,95.44C94.79,95.89 94.42,96.25 93.94,96.5C93.45,96.76 92.85,96.88 92.14,96.88H89.34V96.03H92.11C92.64,96.03 93.08,95.95 93.44,95.77C93.79,95.59 94.05,95.34 94.23,95.02C94.4,94.69 94.49,94.31 94.49,93.87C94.49,93.42 94.4,93.03 94.23,92.7C94.05,92.37 93.79,92.11 93.43,91.93C93.08,91.74 92.64,91.65 92.1,91.65H89.77V101H88.84ZM93.33,96.41L95.83,101H94.76L92.28,96.41H93.33ZM97.68,101H96.71L100.41,90.82H101.41L105.11,101H104.14L100.95,92.03H100.88L97.68,101ZM98.39,97.1H103.44V97.93H98.39V97.1Z"
+          android:fillColor="#ffffff"/>
+    </vector>
+
+  </item>
+  <item>
+
+    <shape android:shape="rectangle">
+
+      <gradient
+
+          android:angle="180"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96"
+          />
+      <corners android:topLeftRadius="20dp" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+          android:angle="90"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96" />
+      <corners android:topLeftRadius="20dp" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+          android:angle="0"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+          android:angle="270"
+          android:centerColor="#00517D96"
+          android:centerX="0.8"
+          android:endColor="#5C517D96"
+          android:startColor="#00517D96" />
+    </shape>
+  </item>
+</layer-list>

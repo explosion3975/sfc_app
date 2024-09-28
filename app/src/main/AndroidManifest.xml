@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <permission android:protectionLevel="signature"
+        android:name="com.example.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.example.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:name="android.hardware.biometrics"
+        android:required="true" />
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sfc_front"
+        android:networkSecurityConfig="@xml/network"
+        tools:targetApi="31"
+        android:requestLegacyExternalStorage="true"
+        >
+
+        <activity
+            android:name=".ui.home.NoteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_note"
+            android:theme="@style/Theme.Sfc_front" />
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:theme="@style/Theme.Sfc_front.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+        <provider
+        android:name="androidx.core.content.FileProvider"
+        android:authorities="com.example.sfc_front.fileprovider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_paths" />
+    </provider>
+
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sfc_front.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sfc_front.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sfc_front.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReadFile"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sfc_front.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FileUpgrade"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sfc_front.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

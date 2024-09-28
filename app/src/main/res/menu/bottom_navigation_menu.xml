@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_fragment_image_button"
+        android:iconTint="#FFFFFFFF"
+        android:title="image"
+        android:icon="@drawable/photo_file" />
+
+    <item
+        android:id="@+id/navigation_video_button"
+        android:title="video"
+        android:icon="@drawable/video_file" />
+
+    <item
+        android:id="@+id/navigation_audio_button"
+
+        android:title="audio"
+        android:icon="@drawable/music_file" />
+
+    <item
+        android:id="@+id/navigation_text_file_button"
+        android:title="txt"
+        android:icon="@drawable/txt_file" />
+
+    <item
+        android:id="@+id/navigation_file_button"
+        android:title="all file"
+        android:icon="@drawable/file_file" />
+</menu>

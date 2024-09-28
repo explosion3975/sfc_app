@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262629"
+    tools:context=".ui.gallery.GalleryFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="15sp"
+        android:gravity="start"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="立即加密系統:\nCAMERA:點擊後即可拍照，點擊確定檔案會被加密保存，重試即可重新拍照\nVIDEO:點擊後即可錄影，點擊確定檔案會被加密保存，重試即可重新拍照\nNOTE:點擊後在上方可以填寫標題，下方可以填寫內容，點擊SEND即可加密保存資料，點擊CANCEL即不會被保存(注意!!!:標題不會被加密)\n升級:\nUPGRADE:需要額外輸入臉部辨識和密碼，search可以快速搜尋檔案加快尋找速度，下方按鈕(會出現的副檔名)由左至右是image(.png、.jpg)、video(.mp4)、audio(.mp3)、txt(.txt)、all file(all)\n點擊檔案會將加密方式升級。(注意!!!:點擊檔案後消失屬於正常現象，密碼錯三次後請向負責公司申請解鎖)\n加密外部檔案:\nFILE PROTECTION:點擊後將可將外部的檔案進行加密，加密後請到BROWSE CYPHER查看(注意!!!:由於安全性問題無法幫您刪除外部的檔案，請移進來後將外部檔案刪除)\n查看加密資料:\nBROWSE CYPHER:需要額外輸入臉部辨識和密碼，search可以快速搜尋檔案加快尋找速度，下方按鈕(會出現的副檔名)由左至右是image(.png、.jpg)、video(.mp4)、audio(.mp3)、txt(.txt)、all file(all)\n點擊檔案後會自動解密打開資料，長按檔案可以選擇重新命名、刪除、以明文儲存檔案\n子功能:\nFORGET PASSWORD: 輸入金鑰及ID即可從註冊的email取回密碼\n雲端備份:開啟HOME右上角的切換扭即可將檔案備份到雲端\nHelp:顯示使用手冊\n\n\n\n" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
